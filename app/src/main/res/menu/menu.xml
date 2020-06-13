@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:title="Thời gian tạo mới nhất"/>
+        <item android:title="Thời gian tạo cũ nhất"/>
+        <item android:title="Thời gian tạo cập nhật mới nhất"/>
+        <item android:title="Thời gian tạo cập nhật cũ nhất"/>
+        <item android:title="Trạng thái Open-> Close"/>
+        <item android:title="Trạng thái Close-> Open"/>
+        <item android:title="Độ ưu tiên cao nhất"/>
+        <item android:title="Độ ưu tiên thấp nhất"/>
+</menu>

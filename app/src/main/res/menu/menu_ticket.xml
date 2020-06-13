@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:title="Tất Cả"/>
+        <item android:title="Processing Ticket"/>
+        <item android:title="Solve Ticket"/>
+        <item android:title="Ticket hết hạn hôm nay"/>
+        <item android:title="Ticket quá hạn xử lý"/>
+        <item android:title="Ticket đang theo dõi"/>
+</menu>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <RelativeLayout
+        android:padding="@dimen/margin_10dp"
+        android:id="@+id/rl"
+        android:background="@drawable/incoming"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/ccIncoming"
+            android:src="@drawable/sieunhan">
+        </de.hdodenhof.circleimageview.CircleImageView>
+        <TextView
+            android:text="Quang Trâm"
+            android:textStyle="bold"
+            android:textSize="@dimen/size"
+            android:id="@+id/tvName_Incoming"
+            android:layout_marginLeft="@dimen/margin_10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/ccIncoming"/>
+        <TextView
+            android:text="Inbrand"
+            android:id="@+id/tvInbrand_Incoming"
+            android:layout_below="@id/tvName_Incoming"
+            android:layout_marginLeft="@dimen/margin_10dp"
+            android:layout_marginTop="@dimen/margin_5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/ccIncoming"/>
+
+        <TextView
+            android:text="00:06:12"
+            android:id="@+id/tvTime_Incoming"
+            android:layout_marginTop="@dimen/margin_5dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/tvName_Incoming"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+    <TextView
+        android:layout_below="@id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_10dp"/>
+
+
+
+</RelativeLayout>

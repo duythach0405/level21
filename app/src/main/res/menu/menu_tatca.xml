@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Chi nhánh Hà Nội"/>
+    <item android:title="Chi nhánh Hải Phòng"/>
+    <item android:title="Chi nhánh Hải Dương"/>
+    <item android:title="Chi nhánh Nam Định"/>
+    <item android:title="Chi nhánh Thái Bình"/>
+    <item android:title="Chi nhánh Hồ Chí Minh"/>
+</menu>
